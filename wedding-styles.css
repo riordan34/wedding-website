@@ -151,7 +151,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .containerpic:hover .imagepic {filter: grayscale(50%);filter:brightness(50%);}
 .containerpic:hover .middlepic {opacity: 1;}
 .textpic {text-align: center; color: white;font-size: 3vw;white-space: nowrap; padding: 16px 32px;}
-.gif{display: block; margin: auto; max-height: 30em; max-width: 30em; filter:brightness(75%);}
+.gif{display: block; margin: auto; max-height: 25em; max-width: 25em; filter:brightness(75%);}
 .logopictest{opacity:1;margin:auto;display: block;width:100px;position: relative;opacity: 0.5;-webkit-opacity: 0.5;-moz-opacity: 0.5;transition: 0.5s ease;-webkit-transition: 0.5s ease;-moz-transition: 0.5s ease;}.btnSocial:hover{width: 150px;opacity: 1;-webkit-opacity: 1;-moz-opacity: 1;}
 .logopic{opacity:1;margin:auto;display: block;transition: .5s ease;} .logopic:hover{color:#17202A;background-color: #17202A;background-size:150%;}
 /* Colors */
