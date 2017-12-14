@@ -37,9 +37,22 @@ p {line-height: 1.7}
     <a class="bar-item button hide-medium hide-large right" href="javascript:void(0)" onclick="toggleFunction()" title="Menu"><i class="fa fa-bars"></i></a>
     <a href="index.html" style="max-width:20%" class="bar-item button hover-navy">Home</a>
     <a href="registry.html" class="bar-item button hover-navy hide-small right">Registry</a>
-    <a href="pictures.html" class="bar-item button hover-navy hide-small right">Pictures</a>
+    <div class="dropdown">
+      <button class="bar-item button hide-small right dropbtn bar">Pictures <i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-content">
+        <a href="pictures.html">Pictures</a>
+        <a href="pictures.html#proposal">Proposal</a>
+        <a href="index.html#engagement">Engagement</a>
+      </div>
+    </div>
     <a href="things-to-do.html"  class="bar-item button hover-navy hide-small right">Yinz Need Pittsburgh Info?</a>
-    <a href="index.html#details" class="bar-item button hover-navy hide-small right">Wedding Deets</a>
+    <div class="dropdown">
+      <button class="bar-item button hide-small right dropbtn bar">Wedding Details <i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-content">
+        <a href="index.html#details">When and Where</a>
+        <a href="index.html#Accommodations">Accommodations</a>
+      </div>
+    </div>
   </div>
 
  <!-- Navbar on small screens -->
