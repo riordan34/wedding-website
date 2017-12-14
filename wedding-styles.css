@@ -158,6 +158,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .logopic{opacity:1;margin:auto;display: block;transition: .5s ease;} .logopic:hover{color:#17202A;background-color: #17202A;background-size:150%;}
 .cursive-large{text-align:center; font-family: 'Italianno', cursive;font-size:5.5em;}
 .cursive-medium{text-align:center; font-family: 'Italianno', cursive;font-size:4em;}
+.cursive-countdown{text-align:center; font-family: 'Italianno', cursive;font-size:5vw;}
 /* Colors */
 .background-wine,.background-hover-wine:hover{color:#000!important;background-color: rgb(85,9,3)!important}
 .navy,.hover-navy:hover{color:#fff!important;background-color:#17202A!important}
