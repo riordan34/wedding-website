@@ -31,14 +31,34 @@ p {line-height: 1.7}
 </header>
 
 <!-- Navbar -->
-<div class="top hide-small">
+<div class="top">
   <div class="bar white padding opacity-menu hover-opacity-menu">
-    <a href="index.html" style="max-width:20%" class="bar-item button hover-navy"><span>Home</span></a>
-    <a href="registry.html" style="float:right" class="bar-item button hover-navy"><span>Registry</span></a>
-    <a href="pictures.html" style="float:right" class="bar-item button hover-navy"><span>Pictures</span></a>
-    <a href="things-to-do.html" style="float:right" class="bar-item button hover-navy"><span>Yinz Need Pittsburgh Info?</span></a>
-    <a href="index.html#details" style="float:right" class="bar-item button hover-navy"><span>Wedding Deets</span></a>
+    <a class="bar-item button hide-medium hide-large right" href="javascript:void(0)" onclick="toggleFunction()" title="Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" style="max-width:20%" class="bar-item button hover-navy">Home</a>
+    <a href="registry.html" class="bar-item button hover-navy hide-small right">Registry</a>
+    <a href="pictures.html" class="bar-item button hover-navy hide-small right">Pictures</a>
+    <a href="things-to-do.html"  class="bar-item button hover-navy hide-small right">Yinz Need Pittsburgh Info?</a>
+    <a href="index.html#details" class="bar-item button hover-navy hide-small right">Wedding Deets</a>
   </div>
+
+ <!-- Navbar on small screens -->
+  <div id="smallNav" class="bar-block white hide hide-large hide-medium">
+    <a href="index.html#details" class="bar-item button" onclick="toggleFunction()">Wedding Deets</a>
+    <a href="things-to-do.html" class="bar-item button" onclick="toggleFunction()">Yinz Need Pittsburgh Info</a>
+    <a href="pictures.html" class="bar-item button" onclick="toggleFunction()">Pictures</a>
+    <a href="registry.html" class="bar-item button" onclick="toggleFunction()">Registry</a>
+  </div>
+
+  <script>
+  function toggleFunction() {
+    var a = document.getElementById("smallNav");
+    if (a.className.indexOf("show") == -1) {
+        a.className += " show";
+    } else {
+        a.className = a.className.replace(" show", "");
+    }
+}
+</script>
 </div>
 
 <!-- About -->
