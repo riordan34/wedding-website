@@ -151,7 +151,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .containerpic:hover .imagepic {filter: grayscale(50%);filter:brightness(50%);}
 .containerpic:hover .middlepic {opacity: 1;}
 .textpic {text-align: center; color: white;font-size: 3vw;white-space: nowrap; padding: 16px 32px;}
-.gif{display: block; margin: auto; max-height: 30em; max-width: 30em; filter:brightness(75%);}
+.gif{display: block; margin: auto; width:65%;height:auto; filter:brightness(75%);}
 .rotate90{-webkit-transform:rotate(90deg);-moz-transform: rotate(90deg);-ms-transform: rotate(90deg);-o-transform: rotate(90deg);transform: rotate(90deg);}
 .rotate270{-webkit-transform:rotate(270deg);-moz-transform: rotate(270deg);-ms-transform: rotate(270deg);-o-transform: rotate(270deg);transform: rotate(270deg);}
 .logopictest{opacity:1;margin:auto;display: block;width:100px;position: relative;opacity: 0.5;-webkit-opacity: 0.5;-moz-opacity: 0.5;transition: 0.5s ease;-webkit-transition: 0.5s ease;-moz-transition: 0.5s ease;}.btnSocial:hover{width: 150px;opacity: 1;-webkit-opacity: 1;-moz-opacity: 1;}
