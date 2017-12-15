@@ -115,8 +115,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
 .animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
 .animate-input{transition:width 0.4s ease-in-out}.animate-input:focus{width:100%!important}
-.opacity,.hover-opacity:hover{opacity:0.60}.opacity-off,.hover-opacity-off:hover{opacity:1}.hover-opacity-menu:hover{opacity:.75}
-.opacity-max{opacity:0.25}.opacity-min{opacity:0.75}.opacity-menu{opacity:0.5}
+.opacity,.hover-opacity:hover{opacity:0.60}.opacity-off,.hover-opacity-off:hover{opacity:1}.hover-opacity-menu:hover{opacity:.85}
+.opacity-max{opacity:0.25}.opacity-min{opacity:0.75}.opacity-menu{opacity:0.7}
 .greyscale-max,.grayscale-max,.hover-greyscale:hover,.hover-grayscale:hover{filter:grayscale(100%)}
 .greyscale,.grayscale{filter:grayscale(75%)}.greyscale-min,.grayscale-min{filter:grayscale(15%)}
 .sepia{filter:sepia(75%)}.sepia-max,.hover-sepia:hover{filter:sepia(100%)}.sepia-min{filter:sepia(50%)}
