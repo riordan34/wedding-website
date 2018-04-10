@@ -13,6 +13,20 @@
 body,h1,h2,p{font-family: 'Open Sans Condensed', sans-serif}
 body, html {height: 100%}
 p {line-height: 1.7}
+   @media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
+    header {
+      -webkit-background-size: auto 150%;
+      background-attachment: scroll;
+    }
+}
+@media only screen and (orientation: landscape) and (device-width: 320px), (device-width: 768px) {
+
+    header {
+      -webkit-background-size: 150% auto;
+      background-attachment: scroll;
+    }
+}
+}
 .bgimg, .bgimg2, .bgimg3, .bgimg4{min-height: 100%;background-position: center;background-size: cover;background filter: grayscale(100%);filter: brightness(85%);background-attachment: fixed;
 }
 .bgimg {background-image: url("./WebsitePictures/Backgrounds/Sidewalk.JPG");}
@@ -76,7 +90,7 @@ p {line-height: 1.7}
 </div>
 
 <!-- About -->
-<div class="container padding-64 background-wine">
+<div class="container padding-32 background-wine">
   <div class="content">
     <p class="cursive-large center text-silver">Sarah & Kenneth<br><img src="./WebsitePictures/TabLogo.png" class="center" style="max-height: 4em"></p>
     <p class= "cursive-countdown center text-silver" id="countdown"></p>
@@ -108,7 +122,7 @@ var x = setInterval(function() {
 </div>
 
 <!-- How it Started story -->
-<div class="container padding-64 background-wine">
+<div class="container padding-32 background-wine">
   <div class="content">
     <h1 class="cursive-large text-silver">January 12, 2015</h1>
     <p style="text-align:center;font-size:1.35em" class="text-silver">A nervous boy, who is attempting to appear more "adult-ish" by establishing himself around CMU’s campus as “Ken”, shakily introduces himself as Kenny to an extremely pretty, redheaded girl.
@@ -126,7 +140,7 @@ var x = setInterval(function() {
 </div>
 
 <!-- Proposal story -->
-<div class="container padding-64 background-wine">
+<div class="container padding-32 background-wine">
   <div class="content">
     <h1 class="cursive-large text-silver">October 27, 2017</h1>
     <p style="text-align:center;font-size:1.25em" class="text-silver">Mid-October, I added "~fun activity~" to our calendar on October 27, 2017 after Kenny mentioned wanting to have a date night.  Little did I know all the planning that had already gone into that day, including Kenny (frantically, I'm sure) texting a mutual friend to tell her she *had* to cancel plans she and I made that evening, no matter what the excuse.  Despite the sadness over canceled plans, I was excited when I opened my birthday present a week later: tickets to see Beauty & the Beast downtown on October 27, 2017.<br><br>The next week flew by with only a few suspicious slip-ups: in particular, my dad telling me "see you Friday [the 27th]" when leaving his house the weekend before.  As Friday approached, my friend Vanya texted that she had a big presentation the next Monday and wanted to practice with me that Friday evening.  With some confusion, I agreed -- as long as I had time to go home and change before going downtown ("Why can't we practice Saturday or Sunday? Why Friday evening?").  With more confusion and eye rolls, Vanya eventually convinced me to get ready for the show on campus before her practice presentation, with the bribe that another friend, Nicole, would curl my hair -- a task I have yet to master.<br><br>I arrived Friday morning at CMU with a packed bag and a packed day.  Between class, meetings, and volunteering, I didn't have much time to notice the suspicious activities of Vanya, Nicole, and Kenny.  When I did realize that Vanya was MIA and not responding to texts, Nicole played right along.  I became increasingly more aware of their odd behavior when Nicole insisted on WHAT dress I wear and WHEN I should change, when others in the office [unknowingly] made comments about how they thought Vanya was up to something, and when Kenny called me to say he was stuck in traffic when it *clearly* didn't sound like he was in the car.<br><br>When Nicole and I arrived (only a littttttle late) at the supposed scene of the practice presentation, there was a sign on the door that led me to Wean 7500: the CMU classroom where Kenny and I first met about three years prior. I immediately recognized the room number and felt butterflies of excitement and nervousness in my stomach.  As I opened the door to Wean 7500, I couldn't believe what I saw: an old lecture hall transformed with lights and flowers.  The table at the front had a book Kenny had written about our relationship's journey, titled "And Our Story Grew From There".  As I finished reading, Kenny walked down, got down on one knee, and asked me to marry him; in between happy tears,<br><p style="font-size:3em;text-align:center; " class="text-silver"><strong>I SAID YES!</strong></p><br>
@@ -144,7 +158,7 @@ var x = setInterval(function() {
 </div>
 
 <!-- Wedding Details Text -->
-<div class="container padding-64 background-wine" id="details">
+<div class="container padding-32 background-wine" id="details">
   <div class="content">
     <h1 class="cursive-large text-silver">Saturday, September 08, 2018</h1>
     <p class="cursive-medium text-silver">Ceremony</p>
@@ -165,7 +179,7 @@ var x = setInterval(function() {
       </a></div>
     </div>
   </div>
-  <div class="container padding-64 background-wine" id="Accommodations">
+  <div class="container padding-32 background-wine" id="Accommodations">
   <div class="content">
       <p class="cursive-large text-silver">Accommodations</p>
       <p class="center xlarge text-silver">We have reserved a block of rooms at the Sheraton at Station Square and the Holiday Inn Express South Side. To take advantage of the discount, call the numbers listed below or click the picture for hotel information!</p>
