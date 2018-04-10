@@ -8,16 +8,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="wedding-styles.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Italianno|Open+Sans+Condensed:300">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body,h1,h2{font-family: 'Open Sans Condensed', sans-serif}
 body, html {height: 100%}
 p {line-height: 2}
-.bgimg, .bgimg2, .bgimg3, .bgimg4{min-height: 100%;background-position: center;background-size: cover;background filter: grayscale(10%);filter: brightness(85%);background-attachment: fixed;
+.bgimg, .bgimg2, .bgimg3, .bgimg4{min-height: 100%;background-position: center;background-size: cover; filter:brightness(85%);background-attachment: fixed;
 }
 .bgimg {background-image: url("./WebsitePictures/Backgrounds/Pittsburgh.JPG");}
-.bgimg2 {background-image: url("./WebsitePictures/Backgrounds/Lakefront.jpg");}
-.bgimg3 {background-image: url("./WebsitePictures/Backgrounds/proposal_pic.png");}
+.bgimg2 {background-image: url("./WebsitePictures/Backgrounds/Beer.png");}
+.bgimg3 {background-image: url("./WebsitePictures/Backgrounds/Point.png");}
 .bgimg4 {background-image: url("./WebsitePictures/Backgrounds/MellonWalk.jpg");}
 </style>
 <body>
@@ -30,55 +29,153 @@ p {line-height: 2}
 </header>
 
 <!-- Navbar -->
-<div class="top">
+<div class="top hide-small">
   <div class="bar white padding opacity-menu hover-opacity-menu">
-    <a class="bar-item button hide-medium hide-large right" href="javascript:void(0)" onclick="toggleFunction()" title="Menu"><i class="fa fa-bars"></i></a>
     <a href="index.html" style="max-width:20%" class="bar-item button hover-navy">Home</a>
-    <a href="registry.html" class="bar-item button hover-navy hide-small right">Registry</a>
-    <div class="dropdown">
-      <button class="bar-item button hide-small right dropbtn bar">Pictures <i class="fa fa-caret-down"></i></button>
-      <div class="dropdown-content">
-        <a href="pictures.html">Pictures</a>
-        <a href="pictures.html#proposal">Proposal</a>
-        <a href="pictures.html#engagement">Engagement</a>
-      </div>
-    </div>
-    <a href="things-to-do.html"  class="bar-item button hover-navy hide-small right">Yinz Need Pittsburgh Info?</a>
-    <div class="dropdown">
-      <button class="bar-item button hide-small right dropbtn bar">Wedding Details <i class="fa fa-caret-down"></i></button>
-      <div class="dropdown-content">
-        <a href="index.html#details">When and Where</a>
-        <a href="index.html#Accommodations">Accommodations</a>
-      </div>
-    </div>
+    <a href="registry.html" style="float:right" class="bar-item button hover-navy">Registry</a>
+    <a href="pictures.html" style="float:right" class="bar-item button hover-navy">Pictures</a>
+    <a href="things-to-do.html" style="float:right" class="bar-item button hover-navy">Yinz Need Pittsburgh Info?</a>
+    <a href="index.html#details" style="float:right" class="bar-item button hover-navy">Wedding Deets</a>
   </div>
-
- <!-- Navbar on small screens -->
-  <div id="smallNav" class="bar-block white hide hide-large hide-medium">
-    <a href="index.html#details" class="bar-item button" onclick="toggleFunction()">Wedding Deets</a>
-    <a href="things-to-do.html" class="bar-item button" onclick="toggleFunction()">Yinz Need Pittsburgh Info</a>
-    <a href="pictures.html" class="bar-item button" onclick="toggleFunction()">Pictures</a>
-    <a href="registry.html" class="bar-item button" onclick="toggleFunction()">Registry</a>
-  </div>
-
-  <script>
-  function toggleFunction() {
-    var a = document.getElementById("smallNav");
-    if (a.className.indexOf("show") == -1) {
-        a.className += " show";
-    } else {
-        a.className = a.className.replace(" show", "");
-    }
-}
-</script>
 </div>
 
 <!-- Temp -->
 <div class="container padding-64 background-wine">
   <div class="content">
-    <h1 class="cursive-large text-silver">Under Construction</h1>
-    <p style="text-align:center;font-size: 1.5em"; class="text-silver"><i>Information coming soon, Kenny really appreciates your patience.</i>
-    </p>
+    <h1 class="cursive-large text-silver">Transportation</h1>
+    <p style="text-align:center;font-size:1.75em" class="text-silver"><b>Ride Share Services</b></p>
+        <p style="text-align:center;font-size:1.35em" class="text-silver">There are a number of ways to get around the city from the airport. Personally, we recommend either using <a href="https://m.uber.com/ul/?action=setPickup" target="_blank">Uber</a> or <a href="https://ride.lyft.com" target="_blanl">Lyft</a>. However, if you aren't comfortable with either of those services, we included a few alternatives below.</p>
+      <p style="text-align:center;font-size:1.75em" class="text-silver"><b>Taxis</b></p>
+      <p style="text-align:center;font-size:1.35em" class="text-silver">One way trip between the airport and downtown tends to cost around $40. A few different options include<br>Checker Cab (412) 644-5600<br>People's Cab (412) 441-3200<br>Yellow Cab (412) 321-8100
+      <p style="text-align:center;font-size:1.75em" class="text-silver"><b>Shuttle</b></p>
+      <p style="text-align:center;font-size:1.35em" class="text-silver">If you plan ahead, you can book a one-way (Airport to Downtown) shuttle for around $27/person. Reservations can be made by calling (800) 258-3826 or online <a href="https://booking.supershuttle.com/?RezMode=1&direction=RT&_ga=2.211379218.680476898.1523318702-522425521.1523318702" target="_blank">here</a>. 
+      <p style="text-align:center;font-size:1.75em" class="text-silver"><b>Train</b></p>
+      <p style="text-align:center;font-size:1.35em" class="text-silver">If you're traveling within the downtown area, you can take the (mostly underground) trolley service, known locally as the "T".  This includes a stop at Station Square (where the hotel is located), four in downtown, and two on the North Shore. If you want to learn more, click <a href="https://www.portauthority.org/paac/apps/maps/TLines.pdf" target="_blank">here</a> and focus on the "Downtown Detail" section. 
+  </div>
+</div>
     
+<!-- Background photo breweries -->
+<div style="filter:contrast(120%)"; class="display-container bgimg2">
+  <div class="display-middle text-white center">
+    <h1 class="header-title-short">Breweries</h1><br>
+  </div>
+</div>
+
+<!-- Breweries -->
+<div class="container padding-64 background-wine">
+  <div class="content">
+    <h1 class="cursive-large text-silver">Our Favorites</h1>
+    <p style="text-align:center;font-size:1.25em" class="text-silver">The number of breweries in Pittsburgh continues to grow, so if you are into craft beer there is definitely something here for you. Check out the map and find some more info on a few of our favorites below.</p>
+    <iframe style="margin: auto; display: block;" src="https://www.google.com/maps/d/u/0/embed?mid=15uxa7GZd-gOEaEog7kPyWePzS00ekOG3" width="640" height="480"></iframe>
+  </div>
+</div>
+
+<div class="row-padding padding-small container">
+  <div class="content">
+    <div class="half">
+      <h1 class="center">Dancing Gnome</h1>
+      <div class="containerpic">
+      <a href="http://www.dancinggnomebeer.com/the-beer/" target="_blank"><img class="imagepic padding-small" src="./ThingsPictures/DancingGnome.png" style="display: block; margin: auto; width: 100%">
+        <div class="middlepic">
+          <div class="textpic">Tap List</div>
+        </div>
+        </a>
+      </div>
+      <p class="text-grey padding-small">Dancing Gnome focuses on IPAs, specifically, hazy IPAs. Don't know about hazy IPAs? Text Cary Deiter, or just read about them <a href="https://www.craftbeer.com/craft-beer-muses/new-england-style-ipa-anti-ipa" target="_blank">here</a>. If you’re looking for a juicy, hoppy brew, I highly recommend trying them out. Click the picture to checkout their taplist.</p>
+    </div>
+    <div class="half">
+      <h1 class="center">Brew Gentleman</h1>
+      <div class="containerpic">
+      <a href="https://www.brewgentlemen.com/draft-list" target="_blank"><img class="imagepic padding-small" src="./ThingsPictures/BrewGentleman.png" style="display: block; margin: auto; width: 100%">
+        <div class="middlepic">
+          <div class="textpic">Tap List</div>
+        </div>
+        </a>
+      </div>
+      <p class="text-grey padding-small">Brew Gentleman creates a lot of hop-forward beers, including the General Braddock’s IPA which took <a href="https://www.pastemagazine.com/articles/2016/08/247-of-the-best-american-ipas-blind-tasted-and-ran.html?p=4" target="_blank">second in a blind-taste test</a> of 247 IPAs nationwide. Although it’s located a little outside the city, their beer is definitely worth the drive. See what they currently have on tap.</p>
+    </div>
+  </div>
+</div>
+<div class="row-padding padding-small container">
+  <div class="content">
+    <div class="half">
+      <h1 class="center">Draai Laag</h1>
+      <div class="containerpic">
+      <a href="http://www.strangerootsbeer.com/" target="_blank"><img class="imagepic padding-small" src="./ThingsPictures/DraaiLaag.png" style="display: block; margin: auto; width: 100%">
+        <div class="middlepic">
+          <div class="textpic">Tap List</div>
+        </div>
+        </a>
+      </div>
+      <p class="text-grey padding-small">Don’t like IPAs? Don’t worry, Draai Laag (pronounced Dry Lahg) doesn’t make any. They focus on creative wild and sour ales that are tough to beat. They're currently rebranding as "Strange Roots Experimental Ales", but I don't think their beer is going to get any less delicious. Bonus points for being close to Grist House (another local favorite, and great if you're a fan of dogs).
+</p>
+    </div>
+    <div class="half">
+      <h1 class="center">Voodoo</h1>
+      <div class="containerpic">
+      <a href="http://www.voodoobrewery.com/locations/homestead/" target="_blank"><img class="imagepic padding-small" src="./ThingsPictures/Voodoo.png" style="display: block; margin: auto; width: 100%">
+        <div class="middlepic">
+          <div class="textpic">Tap List</div>
+        </div>
+        </a>
+      </div>
+      <p class="text-grey padding-small">Voodoo offers a wide-range of beers and is probably best known for their speciality their barrel-aged brews (as well as barrel-aged) cocktails. The pub is relatively new and offers quite the atmosphere. Check out what’s on tap and learn a little about their beers here.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Background photo activites -->
+<div style="filter:contrast(120%)"; class="display-container bgimg3">
+  <div class="display-middle text-white center">
+    <h1 class="header-title-short">Other Activites</h1><br>
+  </div>
+</div>
+
+<!-- PNC -->
+<div style="padding: 48px 4px 24px" class="row-padding container background-wine">
+  <div class="content">
+    <div class="half">
+      <h1 class="center text-silver">Pirates Game at PNC</h1>
+      <p class="text-silver padding-small">Going to be in town on Friday night or Sunday afternoon? Catch the Buccos game at PNC Park, which is objectively the greatest ball park in the MLB. Tickets are typically pretty cheap, and as an added bonus, it’s Free Shirt Friday so you can get yourself some Pirates gear while you’re there. Also, when you go to the game, make sure you go to Manny’s BBQ in Center field and get the pulled pork and pierogi sammich, you won’t be disappointed.</p>
+    </div>
+    <div class="half">
+      <div class="containerpic">
+      <img class="imagepic padding-small" src="./ThingsPictures/PNC.png" style="display: block; margin: auto; width: 100%">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- The Point -->
+<div style="padding: 24px 4px" class="row-padding container background-wine">
+  <div class="content">
+    <div class="half">
+      <div class="containerpic">
+      <img class="imagepic padding-small" src="./ThingsPictures/ThePoint.png" style="display: block; margin: auto; width: 100%">
+      </div>
+    </div>
+    <div class="half">
+      <h1 class="center text-silver">The Point</h1>
+      <p class="text-silver padding-small">Point State Park is at the confluence of the Allegheny and Monongahela (Ma-nong-gah-hela) Rivers. Learn about the history of Pittsburgh and Fort Duquesne (Du-Cain), check out the fountain, and enjoy the views of Mt. Washington, Downtown, and the North Shore. If you’re lucky, you might even stumble into some live music.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Market Square -->
+<div style="padding: 36px 4px" class="row-padding container background-wine">
+  <div class="content">
+    <div class="half">
+      <h1 class="center text-silver">Market Square</h1>
+      <p class="text-silver padding-small">Market Square is in the heart of downtown and is full of restaurants and bars including Primanti Bros. Get yourself a Yuengling and a sandwich and soak in the local yinzers. As a side note, you may want to wear a bib while eating, the sandwiches have a tendency to be a little messy.</p>
+    </div>
+    <div class="half">
+      <div class="containerpic">
+      <img class="imagepic padding-small" src="./ThingsPictures/Primantis.png" style="display: block; margin: auto; width: 100%">
+      </div>
+    </div>
+  </div>
+</div>
+
+
 </body>
 </html>
