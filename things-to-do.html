@@ -29,17 +29,50 @@ p {line-height: 2}
 </header>
 
 <!-- Navbar -->
-<div class="top hide-small">
+<div class="top">
   <div class="bar white padding opacity-menu hover-opacity-menu">
+    <a class="bar-item button hide-medium hide-large right" href="javascript:void(0)" onclick="toggleFunction()" title="Menu"><i class="fa fa-bars"></i></a>
     <a href="index.html" style="max-width:20%" class="bar-item button hover-navy">Home</a>
-    <a href="registry.html" style="float:right" class="bar-item button hover-navy">Registry</a>
-    <a href="pictures.html" style="float:right" class="bar-item button hover-navy">Pictures</a>
-    <a href="things-to-do.html" style="float:right" class="bar-item button hover-navy">Yinz Need Pittsburgh Info?</a>
-    <a href="index.html#details" style="float:right" class="bar-item button hover-navy">Wedding Deets</a>
+    <a href="registry.html" class="bar-item button hover-navy hide-small right">Registry</a>
+    <div class="dropdown">
+      <button class="bar-item button hide-small right dropbtn bar">Pictures <i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-content">
+        <a href="pictures.html">Pictures</a>
+        <a href="pictures.html#proposal">Proposal</a>
+        <a href="pictures.html#engagement">Engagement</a>
+      </div>
+    </div>
+    <a href="things-to-do.html"  class="bar-item button hover-navy hide-small right">Yinz Need Pittsburgh Info?</a>
+    <div class="dropdown">
+      <button class="bar-item button hide-small right dropbtn bar">Wedding Details <i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-content">
+        <a href="index.html#details">When and Where</a>
+        <a href="index.html#Accommodations">Accommodations</a>
+      </div>
+    </div>
   </div>
-</div>
 
-<!-- Temp -->
+ <!-- Navbar on small screens -->
+  <div id="smallNav" class="bar-block white hide hide-large hide-medium">
+    <a href="index.html#details" class="bar-item button" onclick="toggleFunction()">Wedding Deets</a>
+    <a href="things-to-do.html" class="bar-item button" onclick="toggleFunction()">Yinz Need Pittsburgh Info</a>
+    <a href="pictures.html" class="bar-item button" onclick="toggleFunction()">Pictures</a>
+    <a href="registry.html" class="bar-item button" onclick="toggleFunction()">Registry</a>
+  </div>
+
+  <script>
+  function toggleFunction() {
+    var a = document.getElementById("smallNav");
+    if (a.className.indexOf("show") == -1) {
+        a.className += " show";
+    } else {
+        a.className = a.className.replace(" show", "");
+    }
+}
+</script>
+</div>
+  
+<!-- Transportation -->
 <div class="container padding-64 background-wine">
   <div class="content">
     <h1 class="cursive-large text-silver">Transportation</h1>
