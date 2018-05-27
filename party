@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<title>Sarah & Kenneth</title>
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="./WebsitePictures/TabLogo.png">
+</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="wedding-styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Italianno|Open+Sans+Condensed:300">
+<style>
+body,h1,h2{font-family: 'Open Sans Condensed', sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2, .bgimg3, .bgimg4{min-height: 100%;background-position: center;background-size: cover; filter:brightness(85%);background-attachment: fixed;
+}
+.bgimg {background-image: url("./WebsitePictures/Backgrounds/PartyBackground.png");}
+
+</style>
+<body>
+  
+<!-- Header / Home-->
+<header class="display-container wide bgimg">
+  <div class="display-middle text-white center">
+    <h1 class="header-title">The Wedding Party</h1>
+  </div>
+</header>
+
+<!-- Navbar -->
+<div class="top">
+  <div class="bar white padding opacity-menu hover-opacity-menu">
+    <a class="bar-item button hide-medium hide-large right" href="javascript:void(0)" onclick="toggleFunction()" title="Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" style="max-width:20%" class="bar-item button hover-navy">Home</a>
+    <a href="registry.html" class="bar-item button hover-navy hide-small right">Registry</a>
+    <div class="dropdown">
+      <button class="bar-item button hide-small right dropbtn bar">Pictures <i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-content">
+        <a href="pictures.html">Pictures</a>
+        <a href="pictures.html#proposal">Proposal</a>
+        <a href="pictures.html#engagement">Engagement</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="bar-item button hide-small right dropbtn bar">Yinz Need Pittsburgh Info? <i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-content">
+        <a href="things-to-do.html">Yinz Need Pittsburgh Info?</a>
+        <a href="things-to-do.html#Transportation">Transportation</a>
+        <a href="things-to-do.html#breweries">Breweries</a>
+        <a href="things-to-do.html#activities">Activities</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="bar-item button hide-small right dropbtn bar">Wedding Details <i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-content">
+        <a href="index.html#details">When and Where</a>
+        <a href="index.html#Accommodations">Accommodations</a>
+        <a href="party.html">Wedding Party</a>
+      </div>
+    </div>
+  </div>
+
+ <!-- Navbar on small screens -->
+  <div id="smallNav" class="bar-block white hide hide-large hide-medium">
+    <a href="index.html#details" class="bar-item button" onclick="toggleFunction()">Wedding Deets</a>
+    <a href="things-to-do.html" class="bar-item button" onclick="toggleFunction()">Yinz Need Pittsburgh Info</a>
+    <a href="pictures.html" class="bar-item button" onclick="toggleFunction()">Pictures</a>
+    <a href="registry.html" class="bar-item button" onclick="toggleFunction()">Registry</a>
+  </div>
+
+  <script>
+  function toggleFunction() {
+    var a = document.getElementById("smallNav");
+    if (a.className.indexOf("show") == -1) {
+        a.className += " show";
+    } else {
+        a.className = a.className.replace(" show", "");
+    }
+}
+</script>
+</div>
+
+<!-- Wedding Party -->
+<div class="row-padding padding-small container background-wine">
+  <div class="content">
+    <div class="half text-silver">
+      <h class="cursive-medium center">The Ladies</h><br>
+      <img class="left circle margin-right padding-small" src="./PartyPictures/regina.png" style="width: 8em">
+      <p><span class="large margin-right">Regina Robb</span><br>Maid of Honor - I am Sarah's only younger sister.   Sarah is about 18 months my senior, but I am lucky that my sister is more than that; she is my my friend and my caregiver even as we've grown. I'm successful today largely because of my beloved Sarah; I call her often for a chat, for advice, for comfort and a smile!</p><br>
+      <img class="left circle margin-right padding-small" src="./PartyPictures/kristin.png" style="width: 8em">
+      <p><span class="large margin-right">Kristin Wabiszewski</span><br>Matron of Honor - I am Kristin, Sarah’s second oldest sister and the other “middle child.”  I have had the privilege of making Sarah an aunt and introducing her into the crazy world of little boys (which I am still figuring out myself!) To return the favor, Sarah is constantly introducing me to all the newest technologies that make me feel way older than 30 years old.</p><br>
+      <img class="left circle margin-right padding-small" src="./PartyPictures/erin.png" style="width: 8em">
+      <p><span class="large margin-right">Erin Du Carme</span><br>Matron of Honor - I am Sarah’s oldest sister, the first-born of the “Robb girls.” We share a love to travel and experience new and exciting places, we enjoy long distance running and training for races, and we’re both eager for continuous learning and achievement.  She might be my younger sister, but there are countless reasons why I look up to Sarah as a role model and inspiration.</p><br>
+      <img class="left circle margin-right padding-small" src="./PartyPictures/monica.png" style="width: 8em">
+      <p><span class="large margin-right">Monica Frydach</span><br>Bridesmaid - I'm Kenny's older sister. I met Sarah the weekend of my wedding in January 2016.  We have bonded through a love of running and baking!</p><br>
+      <img class="left circle margin-right padding-small" src="./PartyPictures/nicoler.png" style="width: 8em">
+      <p><span class="large margin-right">Nicole Racine</span><br>Bridesmaid - Sarah and I are both doctoral students at Carnegie Mellon University and have bonded over many late night study sessions, sangria, and freshly baked goods.  Sarah has been a cornerstone through my transition moving to Pittsburgh, and I'm thrilled to be with her on her special day.</p><br>
+      <img class="left circle margin-right padding-small" src="./PartyPictures/vanya.png" style="width: 8em">
+      <p><span class="large margin-right">Vanya Britto</span><br>Bridesmaid - Since I moved to Pittsburgh 2 years ago, Sarah has made this city feel like home. From spending time with her family, to feeling like yinzers exploring Pitty, to persevering through late night homework sessions, we've experienced so much in such a short amount of time.  There's no one else with whom I'd rather endure a PhD, cheer on the Pens, and most importantly, go on a quest to find the best milkshake in Pittsburgh!</p><br>
+      <img class="left circle margin-right padding-small" src="./PartyPictures/kelly.png" style="width: 8em">
+      <p><span class="large margin-right">Kelly Joy</span><br>Bridesmaid - Sarah and I met through Nicole Kirkwood while we were all studying at Robert Morris University. We ended up becoming roommates during my junior year and Sarah's senior year and all lived together in Concord 106!</p><br>
+      <img class="left circle margin-right padding-small" src="./PartyPictures/nicolek.png" style="width: 8em">
+      <p><span class="large margin-right">Nicole Kirkwood</span><br>Bridesmaid - I met my candy loving, free spirited, hard working friend through my cousin while on a trip to Kennywood junior year in high school. We bonded over gummy worms in the back seat of the car. A year or so later, we attended Robert Morris University together and the rest is history - especially with junk food and wine.</p><br>
+      </div>
+    <div class="half text-silver" style="padding-left: 8em">
+      <h class="cursive-medium center">The Fellas</h><br>
+      <img class="left circle margin-right padding-small" src="./PartyPictures/dave.png" style="width: 8em">
+      <p><span class="large margin-right">Dave Cannon</span><br>Best Man</p><br>
+      <img class="left circle margin-right padding-small" src="./PartyPictures/scott.png" style="width: 8em">
+      <p><span class="large margin-right">Scott Mackie</span><br>Groomsman</p><br>
+      <img class="left circle margin-right padding-small" src="./PartyPictures/justin.png" style="width: 8em">
+      <p><span class="large margin-right">Justin Russell</span><br>Groomsman</p><br>
+      <img class="left circle margin-right padding-small" src="./PartyPictures/Avatar.png" style="width: 8em">
+      <p><span class="large margin-right">Eric Schneider</span><br>Groomsman</p><br>
+      <img class="left circle margin-right padding-small" src="./PartyPictures/jordan.png" style="width: 8em">
+      <p><span class="large margin-right">Jordan Banky</span><br>Groomsman</p><br>
+      <img class="left circle margin-right padding-small" src="./PartyPictures/cary.png" style="width: 8em">
+      <p><span class="large margin-right">Cary Deiter</span><br>Groomsman</p><br>
+      <img class="left circle margin-right padding-small" src="./PartyPictures/drew.png" style="width: 8em">
+      <p><span class="large margin-right">Drew Volbers</span><br>Groomsman</p><br>
+      <img class="left circle margin-right padding-small" src="./PartyPictures/pete.png" style="width: 8em">
+      <p><span class="large margin-right">Pete Vicente</span><br>Groomsman</p><br>
+    </div>
+  </div>
+</div>
